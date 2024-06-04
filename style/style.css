@@ -12,13 +12,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: gray;
 }
 
 #navbar {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    background-color: red;
+    background-color: white;
     height: 75px;
     width: 100vw;
 }
@@ -26,14 +27,20 @@ body {
 #nav-items {
     display: flex;
     flex-direction: row;
-    gap: 230px;
+    text-decoration: none;
+    list-style: none;
     margin-top: 23px;
-    color: red;
+    gap: 70px;
 }
 
 .item-description {
     text-decoration: none;
-    color: black;
+    color: #222021;
     font-size: 1.3em;
     font-weight: 700;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
 }
