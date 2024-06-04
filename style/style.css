@@ -15,7 +15,25 @@ body {
 }
 
 #navbar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     background-color: red;
     height: 75px;
     width: 100vw;
+}
+
+#nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    margin-top: 23px;
+    color: red;
+}
+
+.item-description {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: 700;
 }
