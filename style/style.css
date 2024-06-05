@@ -38,11 +38,37 @@ body {
     text-decoration: none;
     color: #222021;
     font-size: 1.5em;
-    font-family: 'Rajdhani';
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
 }
 
 .logo {
     width: 100px;
     height: auto;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #navbar {
+        height: 50px;
+        width: 100vw;
+        display: flex;
+        justify-content: left;
+    }
+
+    #nav-items {
+        gap: 35px;
+        margin-left: 4px;
+        margin-top: 15px;
+    }
+
+    .item-description {
+        font-size: 0.9em;
+        text-align: left;
+        justify-content: left;
+    }
+
+    .logo {
+        width: 70px;
+        height: auto;
+    }
 }
