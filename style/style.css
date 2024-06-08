@@ -50,10 +50,23 @@ body {
     font-weight: 600;
 }
 
+.item-description:hover {
+    color: gray;
+    font-size: 1.7em;
+    transition: all .7s;
+}
+
 .logo {
     width: 100px;
     height: auto;
 }
+
+.logo:hover {
+    transform: scale(1.2, 1.2);
+    transition: all .5s;
+}
+
+
 
 @media (min-width: 769px) and (max-width: 1024px) {
     #navbar {
@@ -90,6 +103,26 @@ body {
         margin-top: -5px;
     }
 
+    #menu1 {
+        display: none;
+    }
+
+    #search1 {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #menu1 {
+        display: none;
+    }
+
+    #search1 {
+        display: none;
+    }
+}
+
+@media (min-width: 1201px) {
     #menu1 {
         display: none;
     }
