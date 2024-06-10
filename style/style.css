@@ -2,17 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-@font-face {
-    font-family: 'Questrial';
-    src: url(../font/Questrial-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+:root {
+    --azul-marinho: #2C3E50;
+    --dourado: #F39C12;
+    --cinza-escuro: #34495E;
 }
-
-/*
-#FFE1C3
-#FFFFFF
-*/
 
 * {
     padding: 0px;
@@ -21,113 +15,50 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: gray;
 }
 
 #navbar {
     display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background-color: white;
-    height: 75px;
+    background-color: var(--azul-marinho);
+    
+    height: 82px;
     width: 100vw;
+
+    align-items: center;
+    justify-content: left;
 }
 
 #nav-items {
     display: flex;
-    flex-direction: row;
+}
+
+.nav-item {
+    display: flex;
+}
+
+a {
+    display: flex;
     text-decoration: none;
-    list-style: none;
-    margin-top: 23px;
-    gap: 50px;
+    color: white;
 }
 
-.item-description {
-    text-decoration: none;
-    color: #222021;
-    font-size: 1.5em;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-}
+#logo {
+    display: flex;
 
-.item-description:hover {
-    color: gray;
-    font-size: 1.7em;
-    transition: all .7s;
-}
-
-.logo {
     width: 100px;
     height: auto;
+    margin-left: 5px;
 }
 
-.logo:hover {
-    transform: scale(1.2, 1.2);
-    transition: all .5s;
+#logo:hover {  /* O Efeito do Hover só será visto em celular ou notebook */
+    transform: scale(1.6, 1.6);
+    transition: all .9s;
 }
 
-
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    #navbar {
-        height: 70px;
-        width: 100vw;
-        display: flex;
-        justify-content: left;
-        text-align: left;
-    }
-
-    #nav-item {
-        justify-content: left;
-        text-align: left;
-        width: 100vw;
-        display: flex;
-    }
-
-    #nav-items {
-        display: flex;
-        justify-content: left;
-        flex-direction: row;
-    }
-
-    .item-description {
-        justify-content: left;
-        text-align: left;
-        font-family: 'Questrial', 'Poppins', sans-serif;
-        font-size: 1.15em;
-    }
-
-    .logo {
-        display: flex;
-        margin-left: 50px;
-        margin-top: -5px;
-    }
-
-    #menu1 {
-        display: none;
-    }
-
-    #search1 {
-        display: none;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-    #menu1 {
-        display: none;
-    }
-
-    #search1 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
-    #menu1 {
-        display: none;
-    }
-
-    #search1 {
-        display: none;
-    }
+#iconmenu {
+    position: absolute;
+    top: 3%;
+    right: 0;
+    margin-right: 20px;
+    font-size: 2.3em;
 }
