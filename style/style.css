@@ -64,7 +64,11 @@ a {
     font-size: 2.3em;
 }
 
-/* TABLET */
+.item-description {
+    display: none;
+}
+
+/* TABLET ESSA VERSÃO DE TABLET TERA A BARRINHA DE NAVEGAR  */ 
 
 @media (min-width: 480px) and (max-width: 550px) {
     body {
@@ -77,6 +81,31 @@ a {
 @media (min-width: 551px) and (max-width: 768px) {
     body {
         background-color: rgb(110, 81, 86);
+    }
+
+    #home {
+        position: absolute;
+        margin-left: 20px;
+        top: 4%;
+    }
+
+    #number1 {
+        position: absolute;
+        margin-left: 130px;
+        top: 4%;
+    }
+
+    #number2 {
+        position: absolute;
+        margin-left: 260px;
+        top: 4%;
+    }
+
+    .item-description {
+        display: flex;
+
+        font-weight: 400;
+        font-size: 1.3em;
     }
 }
 
