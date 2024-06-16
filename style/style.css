@@ -11,11 +11,11 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: purple;
 }
 
 #navbar {
@@ -23,7 +23,7 @@ body {
     background-color: var(--azul-marinho);
     
     height: 82px;
-    width: 100vw;
+    width: 99.9vw;
 
     align-items: center;
     justify-content: left;
@@ -54,7 +54,7 @@ a {
 }
 
 #logo:hover {  /* O Efeito do Hover só será visto em celular ou notebook */
-    transform: scale(1.6, 1.6);
+    transform: scale(1.15, 1.15);
     transition: all .9s;
 }
 
@@ -70,12 +70,10 @@ a {
     display: none;
 }
 
-/* LAPTOPS */
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        background-color: green;
-    }
+main {
+    background-color: red;
+    width: 99.9vw;
+    height: 87.4vh;
 }
 
 /* DESKTOP */
