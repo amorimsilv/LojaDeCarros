@@ -79,7 +79,18 @@ main {
 /* DESKTOP */
 
 @media (min-width: 1025px) and (max-width: 1200px) {
-    body {
+
+    #navbar {
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    .item-description {
+        display: flex;
+    }
+
+    main {
         background-color: orange;
     }
 }
@@ -87,7 +98,7 @@ main {
 /* TELAS GRANDES */
 
 @media (min-width: 1201px) and (max-width: 1680px) {
-    body {
+    main {
         background-color: darkred;
     }
 }
