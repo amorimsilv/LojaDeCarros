@@ -76,6 +76,24 @@ main {
     height: 87.4vh;
 }
 
+#titulo_inicial {
+    display: flex;
+
+    padding: 30px;
+}
+
+#linha {
+    display: flex;
+    position: absolute;
+    background-color: var(--azul-marinho);
+
+    bottom: 77%;
+    right: 0.5%;
+
+    width: 475px;
+    height: 2px;
+}
+
 /* DESKTOP */
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -86,11 +104,35 @@ main {
 
     #home {
         display: flex;
-        
-        font-size: 1.2em;
-        margin-right: 600px;
+        position: absolute;
 
-        align-items: center;
+        top: 4%;
+        left: 20%;
+        
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+
+    #number1 {
+        display: flex;
+        position: absolute;
+
+        top: 4%;
+        left: 35%;
+
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+
+    #number2 {
+        display: flex;
+        position: absolute;
+
+        top: 4%;
+        left: 53%;
+
+        font-size: 1.3em;
+        font-weight: 500;
     }
 
     main {
