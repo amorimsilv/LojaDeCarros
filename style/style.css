@@ -84,11 +84,10 @@ main {
 
 #linha {
     display: flex;
-    position: absolute;
     background-color: var(--azul-marinho);
 
-    bottom: 77%;
-    right: 0.5%;
+    margin-top: -30px;
+    margin-left: 25px;
 
     width: 475px;
     height: 2px;
