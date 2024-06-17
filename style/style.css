@@ -82,12 +82,15 @@ main {
 
     #navbar {
         display: flex;
-        text-align: left;
-        justify-content: left;
     }
 
-    .item-description {
+    #home {
         display: flex;
+        
+        font-size: 1.2em;
+        margin-right: 600px;
+
+        align-items: center;
     }
 
     main {
