@@ -16,11 +16,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom, #2C3E50 70%, #2e4255);
 }
 
 #navbar {
     display: flex;
-    background-color: var(--azul-marinho);
+    /* background-color: var(--azul-marinho); */
+    background: transparent;
     
     height: 82px;
     width: 100vw;
@@ -71,13 +73,13 @@ a {
 }
 
 main {
-    background-color: #fff;
     width: 100vw;
     height: 87.4vh;
 }
 
 #titulo_inicial {
     display: flex;
+    color: white;
 
     padding: 30px;
 }
@@ -92,6 +94,46 @@ main {
     width: 475px;
     height: 2px;
 }
+
+.textmain {
+    margin-left: 35px;
+    color: white;
+}
+
+.textmain2 {
+    margin-left: 35px;
+}
+
+.textmainpesquisa {
+    margin-left: 35px;
+}
+
+#butoesmain {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+    gap: 50px;
+}
+
+#butao1, #butao2 {
+    background-color: #ffffff;
+
+    width: 150px;
+    height: 50px;
+
+    border-radius: 50px;
+    border: 0;
+
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+    cursor: pointer;
+}
+
 
 /* DESKTOP */
 
