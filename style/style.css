@@ -84,17 +84,6 @@ main {
     padding: 30px;
 }
 
-#linha {
-    display: flex;
-    background-color: var(--azul-marinho);
-
-    margin-top: -30px;
-    margin-left: 25px;
-
-    width: 475px;
-    height: 2px;
-}
-
 .textmain {
     margin-left: 35px;
     color: white;
