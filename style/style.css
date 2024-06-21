@@ -17,7 +17,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     /* background-image: linear-gradient(to bottom, #2C3E50 70%, #2e4255); */
-    background-color: purple;
+    background-color: orange;
 }
 
 #navbar {
@@ -89,7 +89,7 @@ main {
     margin-left: 35px;
     color: white;
     text-align: justify;
-    margin-right: 90px;
+    margin-right: 70px;
 }
 
 #butoesmain {
