@@ -88,6 +88,8 @@ main {
 #maincenter {
     margin-left: 35px;
     color: white;
+    text-align: justify;
+    margin-right: 100px;
 }
 
 #butoesmain {
@@ -97,7 +99,7 @@ main {
     justify-content: center;
 
     margin-top: 100px;
-    gap: 50px;
+    gap: 35px;
 }
 
 #butao1, #butao2 {
