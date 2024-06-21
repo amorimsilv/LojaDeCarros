@@ -85,17 +85,9 @@ main {
     padding: 30px;
 }
 
-.textmain {
+#maincenter {
     margin-left: 35px;
     color: white;
-}
-
-.textmain2 {
-    margin-left: 35px;
-}
-
-.textmainpesquisa {
-    margin-left: 35px;
 }
 
 #butoesmain {
