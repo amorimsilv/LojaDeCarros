@@ -16,7 +16,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to bottom, #2C3E50 70%, #2e4255);
+    /* background-image: linear-gradient(to bottom, #2C3E50 70%, #2e4255); */
+    background-color: red;
 }
 
 #navbar {
