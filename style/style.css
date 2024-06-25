@@ -17,13 +17,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     /* background-image: linear-gradient(to bottom, #2C3E50 70%, #2e4255); */
-    background-color: orange;
+    background-color: white;
 }
 
 #navbar {
     display: flex;
     /* background-color: var(--azul-marinho); */
-    background: transparent;
+    background: black;
     
     height: 82px;
     width: 100vw;
@@ -116,6 +116,20 @@ main {
     font-family: 'Poppins', sans-serif;
 
     cursor: pointer;
+}
+
+.caixacarro {
+    display: flex;
+    background-color: black;
+
+    margin: 50px;
+
+    width: 400px;
+    height: 250px;
+}
+
+img {
+    width: 500px;
 }
 
 
